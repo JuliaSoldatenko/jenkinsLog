@@ -26,7 +26,7 @@ public class CalculatorTest {
         logger.log(Level.ERROR, "==== Test start ====");
         int a = 9;
         int b = 3;
-        int expectedResult = 2;
+        int expectedResult = 3;
         assertEquals(String.format("{%s} / {%s} is {%s} ", a, b, expectedResult), expectedResult, Calculator.divide(a, b));
 
         logger.log(Level.INFO, "==== Test end ===");

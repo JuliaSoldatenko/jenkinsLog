@@ -26,6 +26,6 @@ public final class Calculator {
 
     public static int divide(int a, int b) {
         logger.log(Level.ERROR, String.format("Dividing {%s}, {%s}", a, b));
-        return a + b;
+        return a / b;
     }
 }
