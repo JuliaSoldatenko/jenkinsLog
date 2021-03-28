@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "TestAll">
+<!--    <listeners>-->
+<!--        <listener class-name="com.kaz.jenkins.listeners.TestListener" />-->
+<!--    </listeners>-->
+    
+    <test name = "Add">
+        <classes>
+            <class name = "com.kaz.jenkins.CalculatorTest">
+                <methods>
+                    <include name="addTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name = "Divide">
+        <classes>
+            <class name = "com.kaz.jenkins.CalculatorTest">
+                <methods>
+                    <include name="divideTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name = "Fail">
+        <classes>
+            <class name = "com.kaz.jenkins.CalculatorTest">
+                <methods>
+                    <include name="failedTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
