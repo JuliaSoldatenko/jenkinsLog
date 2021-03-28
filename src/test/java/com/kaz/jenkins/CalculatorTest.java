@@ -3,9 +3,9 @@ package com.kaz.jenkins;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
-import org.junit.Test;
+import org.junit.Assert;
+import org.testng.annotations.Test;
 
-import static org.junit.Assert.assertEquals;
 
 public class CalculatorTest {
 
@@ -13,22 +13,28 @@ public class CalculatorTest {
 
     @Test
     public void addTest() {
-        logger.log(Level.ERROR, "==== Test start ===");
+        logger.log(Level.ERROR, "==== Test [addTest] start ===");
         int a = 2;
         int b = 3;
         int expectedResult = 2 + 3;
-        assertEquals(String.format("{%s} + {%s} is {%s} ", a, b, expectedResult), expectedResult, Calculator.add(a, b));
-        logger.log(Level.ERROR, "==== Test end ===");
+        Assert.assertEquals(String.format("{%s} + {%s} is {%s} ", a, b, expectedResult), Calculator.add(a, b), expectedResult);
+        logger.log(Level.ERROR, "==== Test [addTest] end ===");
     }
 
     @Test
     public void divideTest() {
-        logger.log(Level.ERROR, "==== Test start ====");
+        logger.log(Level.ERROR, "==== Test [divideTest] start ====");
         int a = 9;
         int b = 3;
         int expectedResult = 3;
-        assertEquals(String.format("{%s} / {%s} is {%s} ", a, b, expectedResult), expectedResult, Calculator.divide(a, b));
+        Assert.assertEquals(String.format("{%s} / {%s} is {%s} ", a, b, expectedResult), Calculator.divide(a, b), expectedResult);
+        logger.log(Level.INFO, "==== Test [divideTest] end ===");
+    }
 
-        logger.log(Level.INFO, "==== Test end ===");
+    @Test
+    public void failedTest() {
+        logger.log(Level.ERROR, "==== Test [failedTest] start ====");
+        Assert.assertEquals("This should be [FALSE] but was [TRUE] ====", false, true);
+        logger.log(Level.INFO, "==== Test [failedTest] end ===");
     }
 }
