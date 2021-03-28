@@ -1,0 +1,1 @@
+{"uuid":"9ed6dd40-c432-44b4-afa2-acf0afe07960","name":"com.kaz.jenkins.CalculatorTest","children":["face04c5-1736-4f98-83b7-6d10550f145d"],"befores":[{"name":"init","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1616967720753,"stop":1616967720758}],"afters":[],"links":[],"start":1616967720719,"stop":1616967725919}

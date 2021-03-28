@@ -11,12 +11,16 @@
       <![CDATA[One assertion has just passed]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-03-28T21:01:11Z" name="TestAll" finished-at="2021-03-28T21:01:16Z" duration-ms="5255">
+  <suite started-at="2021-03-28T21:27:09Z" name="TestAll" finished-at="2021-03-28T21:27:15Z" duration-ms="5296">
     <groups>
     </groups>
-    <test started-at="2021-03-28T21:01:11Z" name="Add" finished-at="2021-03-28T21:01:16Z" duration-ms="5201">
+    <test started-at="2021-03-28T21:27:09Z" name="Add" finished-at="2021-03-28T21:27:15Z" duration-ms="5233">
       <class name="com.kaz.jenkins.CalculatorTest">
-        <test-method signature="addTest()[pri:0, instance:com.kaz.jenkins.CalculatorTest@70d2e40b]" started-at="2021-03-28T21:01:11Z" name="addTest" description="Add test for Calculator" finished-at="2021-03-28T21:01:16Z" duration-ms="5091" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.kaz.jenkins.CalculatorTest@54ec8cc9]" started-at="2021-03-28T21:27:09Z" name="init" finished-at="2021-03-28T21:27:09Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="addTest()[pri:0, instance:com.kaz.jenkins.CalculatorTest@54ec8cc9]" started-at="2021-03-28T21:27:09Z" name="addTest" description="Add test for Calculator" finished-at="2021-03-28T21:27:14Z" duration-ms="5060" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[--> Reporter log in passed test <--]]>
@@ -25,17 +29,25 @@
         </test-method> <!-- addTest -->
       </class> <!-- com.kaz.jenkins.CalculatorTest -->
     </test> <!-- Add -->
-    <test started-at="2021-03-28T21:01:16Z" name="Divide" finished-at="2021-03-28T21:01:16Z" duration-ms="10">
+    <test started-at="2021-03-28T21:27:15Z" name="Divide" finished-at="2021-03-28T21:27:15Z" duration-ms="14">
       <class name="com.kaz.jenkins.CalculatorTest">
-        <test-method signature="divideTest()[pri:0, instance:com.kaz.jenkins.CalculatorTest@77b7ffa4]" started-at="2021-03-28T21:01:16Z" name="divideTest" description="Divide test for Calculator" finished-at="2021-03-28T21:01:16Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.kaz.jenkins.CalculatorTest@5949eba8]" started-at="2021-03-28T21:27:15Z" name="init" finished-at="2021-03-28T21:27:15Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="divideTest()[pri:0, instance:com.kaz.jenkins.CalculatorTest@5949eba8]" started-at="2021-03-28T21:27:15Z" name="divideTest" description="Divide test for Calculator" finished-at="2021-03-28T21:27:15Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divideTest -->
       </class> <!-- com.kaz.jenkins.CalculatorTest -->
     </test> <!-- Divide -->
-    <test started-at="2021-03-28T21:01:16Z" name="Fail" finished-at="2021-03-28T21:01:16Z" duration-ms="17">
+    <test started-at="2021-03-28T21:27:15Z" name="Fail" finished-at="2021-03-28T21:27:15Z" duration-ms="18">
       <class name="com.kaz.jenkins.CalculatorTest">
-        <test-method signature="failedTest()[pri:0, instance:com.kaz.jenkins.CalculatorTest@7dac3fd8]" started-at="2021-03-28T21:01:16Z" name="failedTest" description="Failed test for Calculator" finished-at="2021-03-28T21:01:16Z" duration-ms="2" status="FAIL">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.kaz.jenkins.CalculatorTest@733037]" started-at="2021-03-28T21:27:15Z" name="init" finished-at="2021-03-28T21:27:15Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="failedTest()[pri:0, instance:com.kaz.jenkins.CalculatorTest@733037]" started-at="2021-03-28T21:27:15Z" name="failedTest" description="Failed test for Calculator" finished-at="2021-03-28T21:27:15Z" duration-ms="3" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[This should be [FALSE] but was [TRUE] ==== expected:<false> but was:<true>]]>

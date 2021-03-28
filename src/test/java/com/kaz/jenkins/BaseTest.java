@@ -8,6 +8,5 @@ public class BaseTest {
     @BeforeClass
     public void init() {
         //This is to start the Log4j logging in the test case
-        DOMConfigurator.configure("log4j.xml");
     }
 }

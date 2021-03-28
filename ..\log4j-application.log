@@ -1,0 +1,8 @@
+2021-03-28 14:35:41 INFO  ProjectLog:11 - ==== Test [addTest] start ===
+2021-03-28 14:35:41 INFO  ProjectLog:11 - Adding {2}, {3}
+2021-03-28 14:35:41 INFO  ProjectLog:11 - ==== Test [addTest] end ===
+2021-03-28 14:35:42 INFO  ProjectLog:11 - ==== Test [divideTest] start ====
+2021-03-28 14:35:42 INFO  ProjectLog:11 - Dividing {9}, {3}
+2021-03-28 14:35:42 INFO  ProjectLog:11 - ==== Test [divideTest] end ===
+2021-03-28 14:35:42 INFO  ProjectLog:11 - ==== Test [failedTest] start ====
+2021-03-28 14:35:42 INFO  ProjectLog:11 - Multiplying {10}, {2}

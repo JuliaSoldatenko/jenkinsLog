@@ -6,6 +6,7 @@
       <class name="com.kaz.jenkins.CalculatorTest">
         <methods>
           <include name="failedTest"/>
+          <include name="init"/>
         </methods>
       </class> <!-- com.kaz.jenkins.CalculatorTest -->
     </classes>

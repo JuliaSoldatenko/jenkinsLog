@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.039 s <<< FAILURE! - in TestSuite
-failedTest(com.kaz.jenkins.CalculatorTest)  Time elapsed: 0.014 s  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.138 s <<< FAILURE! - in TestSuite
+failedTest(com.kaz.jenkins.CalculatorTest)  Time elapsed: 0.009 s  <<< FAILURE!
 java.lang.AssertionError: This should be [FALSE] but was [TRUE] ==== expected:<false> but was:<true>
 	at com.kaz.jenkins.CalculatorTest.failedTest(CalculatorTest.java:47)
 
